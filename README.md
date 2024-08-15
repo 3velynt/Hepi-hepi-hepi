@@ -1,3 +1,12 @@
+function setup() {
+ createCanvas(600, 600);
+ background("black");
+}
+function draw() {
+ stroke("purple");
+ fill("pink");
 
-
-![](https://editor.p5js.org/marcelopaludetto/sketches/MPndtq-6t)
+ if(mouseIspassed){
+ rect(mouseX, mouseY, 20, 35);
+ }
+ }
